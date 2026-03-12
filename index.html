@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="./assets/Logo.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finnest</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwindcss -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  </head>
+  <body>
+    <!-- nav menu -->
+    <section class="py-6 container mx-auto px-5">
+      <header class=" flex justify-between items-center">
+        <a href="#"
+          ><img class="w-[32px] h-[32px]" src="./assets/Logo.png" alt=""
+        /></a>
+        <div class="hidden md:flex  md:gap-[42px] ">
+          <ul class="flex gap-8 items-center">
+            <li class="text-[16px] text-orange"><a href="#">Services</a></li>
+            <li class="text-[16px] text-gray-600"><a href="#">About</a></li>
+            <li class="text-[16px] text-gray-600"><a href="#">Contact</a></li>
+          </ul>
+          <button
+            class="cursor-pointer bg-orange rounded-full px-6 py-3 text-sm text-white border-4 border-b-black border-r-black border-t-0 border-l-0"
+          >
+            Book a Free Consultation
+          </button>
+        </div>
+        
+
+        <!-- hamburger -->
+        <div id="hamburger"  class="block md:hidden hover:text-orange-500 cursor-pointer"><i class="fa-solid fa-bars text-2xl"></i></div>
+
+
+
+      </header>
+      
+       <ul id="menu"
+class="text-center max-h-0 overflow-hidden transition-all duration-500 ease-in-out   items-center bg-orange-200 text-black  mt-2 rounded shadow-lg">
+    <li class="text-[16px] p-3 hover:text-orange-400"><a href="#">Services</a></li>
+    <li class="text-[16px] p-3 hover:text-orange-400"><a href="#">About</a></li>
+    <li class="text-[16px] p-3 hover:text-orange-400"><a href="#">Contact</a></li>
+    <li>
+        <button class="cursor-pointer bg-orange rounded-full px-6 py-3 text-sm text-white border-4 border-b-black border-r-black border-t-0 border-l-0">
+            Book a Free Consultation
+        </button>
+    </li>
+</ul>
+
+    </section>
+
+    <!-- hero -->
+    <section class="bg-gradient-to-b from-white to-[#FFA50040] pt-20 pb-24 md:pb-52">
+      <div class="main flex justify-center items-center">
+        <!-- left -->
+        <div class="hidden md:block">
+          <img src="./assets/Total Incomes Container.png" alt="" />
+        </div>
+
+        <!-- middle -->
+        <div class="w-2/3 flex flex-col justify-center items-center gap-8">
+          <div class="flex gap-3 items-center">
+            <img class="w-[64px] h-[30px]" src="./assets/image 6.png" alt="" />
+            <h3 class="">
+              Your Full-Service <span class="text-orange">Amazon Partner</span>
+            </h3>
+          </div>
+          <h1
+            class="text-3xl md:text-4xl lg:text-7xl font-semibold text-center ld:leading-[80px] tracking-tight"
+          >
+            Turn Your Amazon Struggles<br />into Success—Save Time,<br />
+            <span class="text-orange">Maximize Profits!</span>
+          </h1>
+          <button
+            class="cursor-pointer bg-orange rounded-full px-6 py-3  text-xs md:text-sm text-white border-4 border-b-black border-r-black border-t-0 border-l-0"
+          >
+            Book a Free Consultation
+          </button>
+        </div>
+
+        <!-- right -->
+        <div class="hidden md:block">
+          <img src="./assets/Review Container.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Amazon Statistics -->
+    <section class="py-16 container mx-auto space-y-8 px-5 lg:px-0">
+        <h2 class="text-xl md:text-2xl font-semibold text-center">Amazon Market Statistics Worldwide 2024</h2>
+        <!-- card container -->
+         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <!-- card -->
+             <div class="px-4 py-8 border border-gray-200 shadow rounded-2xl ">
+                <h3 class="text-center lg:text-[40px] font-semibold">600 million</h3>
+                <p class="text-center text-gray-600 text-[18px]">Amazon Offers Over Products</p>
+             </div>
+            <!-- card -->
+             <div class="px-4 py-8 border border-gray-200 shadow rounded-2xl ">
+                <h3 class="text-center lg:text-[40px] font-semibold">$638.0 billion</h3>
+                <p class="text-center text-gray-600 text-[18px]">Amazon Global Net Sales Revenue</p>
+             </div>
+            <!-- card -->
+             <div class="px-4 py-8 border border-gray-200 shadow rounded-2xl ">
+                <h3 class="text-center lg:text-[40px] font-semibold">11.95 million </h3>
+                <p class="text-center text-gray-600 text-[18px]">Amazon Handles Orders Daily.</p>
+             </div>
+            <!-- card -->
+             <div class="px-4 py-8 border border-gray-200 shadow rounded-2xl ">
+                <h3 class="text-center lg:text-[40px] font-semibold">$1.6 billion</h3>
+                <p class="text-center text-gray-600 text-[18px]">Amazon Average Daily Sales Revenue</p>
+             </div>
+         </div>
+    </section>
+
+    <!-- our story -->
+    <section class="pt-4 pb-18 md:pt-10 md:pb-24 px-5 lg:px-0">
+
+        
+        <div class="flex flex-col justify-center items-center gap-3">
+          <div class="flex gap-3 items-center">
+            <img class="w-[64px] h-[30px]" src="./assets/image 6.png" alt="" />
+            <h3>
+              Our <span class="text-orange">Story</span>
+            </h3>
+          </div>
+          <h1
+            class="text-[20px] md:text-[30px] lg:text-[40px] font-semibold text-center  leading-tight"
+          >
+            Struggling With Amazon Sales? Let’s Scale Your <br> Business— <span class="text-orange">Faster, Smarter,</span> & Stress-Free!
+          </h1>
+          <p class="text-[13px] md:text-[18px] text-gray-600 text-center">
+            Amazon is complex, but success doesn’t have to be. At <span class="text-orange">FINTRIXX,</span> we help sellers increase <br> sales, optimize ads, rank higher, and expand into new markets —without wasting time or <br> money. 🎯 Let’s turn your struggles into scalable success!
+          </p>
+          <button
+            class="cursor-pointer mt-4 btn bg-orange rounded-full px-6 py-3 text-xs md:text-sm text-white border-4 border-b-black border-r-black border-t-0 border-l-0"
+          >
+            Book a Free Consultation
+          </button>
+        </div>
+
+    </section>
+
+
+    <!-- why choose us -->
+    <section class="bg-dark py-28 px-5 lg:px-0">
+        <!-- main -->
+         <div class="container mx-auto  flex flex-col-reverse md:flex-row items-center gap-10 md:gap-20">
+            <!-- lft -->
+            <div class=" space-y-4 flex-1">
+
+                <div class="flex gap-3 items-center">
+                    <img class="w-[64px] h-[30px]" src="./assets/image 6.png" alt="" />
+                    <h3 class="text-white">
+                    Why <span class="text-orange">Choose Us</span>
+                     </h3>
+                 </div>
+                  <h1
+            class="text-[36px] md:text-[46px] lg:text-[56px] text-white font-semibold text-left  leading-tight"
+          >
+            Why Choose <span class="text-orange">FINTRIXX?</span>
+          </h1>
+            <p class="text-[16px] md:text-[18px]  text-start text-white font-light">
+            Amazon is tough—we make it easy. At FINTRIXX, we help sellers rank higher, scale faster, & sell smarter. We analyze trends, optimize ads, manage inventory, & protect your account so you can focus on your business.    <br>
+🚀 No more guesswork. No more wasted money. Just real results.
+          </p>
+             <button
+            class="cursor-pointer mt-4 btn bg-orange rounded-full px-6 py-3 text-sm text-white border-4 border-b-white border-r-white border-t-0 border-l-0"
+          >
+            Book a Free Consultation
+          </button>
+            </div>
+            <!-- right  -->
+            <div class="flex-1  ">
+                <img class="w-[100%] md:w-full" src="./assets/Container.png" alt="">
+            </div>
+         </div>
+        
+    </section>
+
+
+    <!-- our services -->
+    <section class="py-28 space-y-16 px-5 lg:px-0">
+           <div class="flex flex-col justify-center items-center gap-0 md:gap-2">
+          <div class="flex gap-3 items-center">
+            <img class="w-[64px] h-[30px]" src="./assets/image 6.png" alt="" />
+            <h3>
+              Our <span class="text-orange">Services</span>
+            </h3>
+          </div>
+          <h1
+            class="text-[36px] md:text-[46px] lg:text-[56px] font-semibold text-center leading-[80px] "
+          >
+            Scale Smarter, <span class="text-orange">Sell Faster</span>
+          </h1>
+            <p class="text-[16px] md:text-[18px] text-gray-600 text-center">We handle everything Amazon so you can focus on growing.
+          </p>
+        </div>
+
+        <!-- card container -->
+         <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+                <div class="flex justify-between items-start">
+                    <p class="lg:text-[18px] text-orange">Amazon Growth & Advertising</p>
+                    <img class="w-16 h-16" src="./assets/Body Text.png" alt="">
+                </div>
+                <div class="w-[2px] h-10 bg-orange opacity-60 -mt-4"></div>
+                <div class="flex items-center gap-1"><img src="./assets/Frame.png" alt=""> <p class="text-gray-600 md:text-sm">Bid & Budget Optimization – Higher ROI, lower ACOS.</p></div>
+                <div class="flex items-center gap-1"><img src="./assets/Frame.png" alt=""> <p class="text-gray-600 md:text-sm">Bid & Budget Optimization – Higher ROI, lower ACOS.</p></div>
+            </div>
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+                <div class="flex justify-between items-start">
+                    <p class="lg:text-[18px] text-orange">SEO & Product Ranking</p>
+                    <img class="w-16 h-16" src="./assets/📈.png" alt="">
+                </div>
+                <div class="w-[2px] h-10 bg-orange opacity-60 -mt-4"></div>
+                <div class="flex items-center gap-1"><img src="./assets/Frame.png" alt=""> <p class="text-gray-600 md:text-sm">Organic & Sponsored Ranking – More visibility, more sales</p></div>
+                <div class="flex items-center gap-1"><img src="./assets/Frame.png" alt=""> <p class="text-gray-600 md:text-sm">Keyword & Competitor Analysis – Stay ahead of the competition.</p></div>
+            </div>
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+                <div class="flex justify-between items-start">
+                    <p class="lg:text-[18px] text-orange"> Inventory & Account Management</p>
+                    <img class="w-16 h-16" src="./assets/Body Text (1).png" alt="">
+                </div>
+                <div class="w-[2px] h-10 bg-orange opacity-60 -mt-4"></div>
+                <div class="flex items-center gap-1"><img src="./assets/Frame.png" alt=""> <p class="text-gray-600 md:text-sm">Inventory Forecasting & Restocking – No stockouts, no overstocking.</p></div>
+                <div class="flex items-center gap-1"><img src="./assets/Frame.png" alt=""> <p class="text-gray-600 md:text-sm">Amazon Account Health & Compliance – Avoid suspensions & violations.</p></div>
+            </div>
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+                <div class="flex justify-between items-start">
+                    <p class="lg:text-[18px] text-orange">Scaling & Expansion</p>
+                    <img class="w-16 h-16" src="./assets/Body Text (2).png" alt="">
+                </div>
+                <div class="w-[2px] h-10 bg-orange opacity-60 -mt-4"></div>
+                <div class="flex items-center gap-1"><img src="./assets/Frame.png" alt=""> <p class="text-gray-600 md:text-sm">Launching New Products – Market research-backed success.</p></div>
+                <div class="flex items-center gap-1"><img src="./assets/Frame.png" alt=""> <p class="text-gray-600 md:text-sm">International Expansion – Sell beyond borders with ease.</p></div>
+            </div>
+
+         </div>
+    </section>
+
+
+    <!-- OUR APPROACH  -->
+        <section class="bg-dark py-14 md:py-28 px-5 lg:px-0">
+            <div class="main container mx-auto flex flex-col lg:flex-row justify-between gap-10 md:gap-20 items-center">
+                <!-- image container  -->
+                <div class="flex-1 flex gap-6 border">
+                    <img class="h-[40%] md:h-[434px]   w-[40%] md:w-full" src="./assets/image.png" alt="">
+                    <img class="h-[40%] md:h-[390px] w-[40%] md:w-full mt-24" src="./assets/image (1).png" alt="">
+                </div>
+
+                <!-- text container  -->
+                <div class="md:flex-1 space-y-4 md:space-y-10">
+                      <h1
+            class="text-[36px] md:text-[46px] lg:text-[56px] font-semibold leading-[80px]  text-white"
+          >
+            Our <span class="text-orange">Approach</span>
+          </h1>
+        <div class=" space-y-4">
+              <p class="pl-3  border-gray-600 border-l-2 text-white text-xl md:text-2xl">🎯 Mission</p>
+
+          <hr class="text-gray-600 ml-3">
+        </div>
+
+          <div class="pl-5 border-l-2 border-[#FFA500] space-y-5">
+              <p class="text-white text-xl md:text-2xl">🌍 Vision</p>
+              <p class="text-white text-md md:text-[18px] font-light">Founded in 1983, SecureWealth was created to address the challenges of traditional banking—long queues, complicated processes, and limited access. We started with a vision to make banking simple, accessible, and convenient for everyone. Today, we proudly serve 7+ million users, helping them manage their finances with ease.</p>
+
+                   <button
+            class="cursor-pointer mt-4 btn bg-orange rounded-full px-6 py-3  text-xs md:text-sm text-white border-4 border-b-white border-r-white border-t-0 border-l-0"
+          >
+            Book a Free Strategy Call
+          </button>
+          </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+            <!-- growth business 1 -->
+    <section class="py-20 md:py-28  flex flex-col  items-center gap-16 px-5 lg:px-0">
+
+           <div class="flex flex-col justify-center items-center gap-2">
+          <div class="flex gap-3 items-center">
+            <img class="w-[64px] h-[30px]" src="./assets/image 6.png" alt="" />
+            <h3>
+              Growth <span class="text-orange">Business</span>
+            </h3>
+          </div>
+          <h1
+            class="text-[36px] md:text-[46px] lg:text-[56px] font-semibold text-center leading-tight "
+          >
+            The Harsh Reality of <br>
+Selling on  <span class="text-orange">Amazon</span>
+          </h1>
+            <p class="text-sm md:text-[18px] text-gray-600 text-center">Selling on Amazon is tough. Do these struggles sound familiar? Without the <br>
+right strategy, you’re losing money, time, and opportunities.
+          </p>
+        </div>
+
+        <!-- card container -->
+         <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+
+                <p class="text-[18px] text-orange">Lost in Competition?</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-gray-600 ">10M+ sellers & 350M+ product how do you stand out?</p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+
+                <p class="text-[18px] text-orange">Burning Cash on Ads?</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-gray-600 ">PPC feels like a money pit with no returns.</p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+
+                <p class="text-[18px] text-orange"> Low Rankings?</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-gray-600 ">Amazon’s complex algorithms keep changing. </p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+
+                <p class="text-[18px] text-orange">Inventory Headaches?</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-gray-600 ">Stockouts, overstocking, at the wrong time?</p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+
+                <p class="text-[18px] text-orange">Risk of Account Suspension?</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-gray-600 ">Amazon’s strict policies make selling stressful.</p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border border-gray-200 shadow rounded-2xl space-y-2">
+
+                <p class="text-[18px] text-orange">Wasting Time & Getting Stuck?</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-gray-600 ">Managing it all alone is overwhelming</p>
+               
+            </div>
+
+         </div>
+                      <button
+            class="cursor-pointer   btn bg-orange rounded-full px-6 py-3 text-xs md:text-sm text-white border-4 border-b-black border-r-black border-t-0 border-l-0"
+          >
+            Talk to an Expert
+          </button>
+    </section>
+
+
+
+                <!-- growth business 2-->
+    <section class="bg-dark py-20  md:py-28  flex flex-col  items-center gap-16 px-5 lg:px-0">
+
+           <div class="flex flex-col justify-center items-center gap-2">
+          <div class="flex gap-3 items-center">
+            <img class="w-[64px] h-[30px]" src="./assets/image 6.png" alt="" />
+            <h3 class="text-white">
+              Growth <span class="text-orange">Business</span>
+            </h3>
+          </div>
+          <h1
+            class=" text-white text-[36px] md:text-[46px] lg:text-[56px] font-semibold text-center leading-tight "
+          >
+            How We Help You <br>
+Win on  <span class="text-orange">Amazon</span>
+          </h1>
+            <p class="text-[16px] md:text-[18px] text-white font-light text-center">At FINTRIXX, we don’t guess—we use data-driven
+<br>
+strategies to scale your business. 
+          </p>
+        </div>
+
+        <!-- card container -->
+         <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <!-- card -->
+            <div class="p-8 border rounded-2xl bg-[#232323] space-y-2">
+
+                <p class="text-[18px] text-orange">We Make You Stand Out</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-white font-light ">Targeted marketing to reach the right buyers. </p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border rounded-2xl bg-[#232323] space-y-2">
+
+                <p class="text-[18px] text-orange">We Fix Your Rankings </p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-white font-light ">SEO, keywords & ads for visibility.</p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border rounded-2xl bg-[#232323] space-y-2">
+
+                <p class="text-[18px] text-orange">We Optimize Your Ads</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-white font-light ">No wasted budget—only high ROI advertising.</p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border rounded-2xl bg-[#232323] space-y-2">
+
+                <p class="text-[18px] text-orange">We Manage Your Inventory</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-white font-light ">So you never run out of stock or overstock.</p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border rounded-2xl bg-[#232323] space-y-2">
+
+                <p class="text-[18px] text-orange">We Keep Your Account Safe</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-white font-light ">Avoid suspensions, policy violations & account risks.</p>
+               
+            </div>
+                <!-- card -->
+            <div class="p-8 border rounded-2xl bg-[#232323] space-y-2">
+
+                <p class="text-[18px] text-orange">We Scale Your Business</p>
+                <div class="w-[2px] h-12 bg-orange opacity-60 "></div>
+               <p class="text-white font-light ">Expansion, market entry & growth.</p>
+               
+            </div>
+
+
+         </div>
+                      <button
+            class="cursor-pointer  btn bg-orange rounded-full px-6 py-3 text-sm text-white border-4 border-b-white border-r-white border-t-0 border-l-0"
+          >
+            Talk to an Expert
+          </button>
+    </section>
+
+
+
+
+    <!-- contact us calendar -->
+    <section class="py-28    mx-auto space-y-14 px-5 lg:px-0">
+
+          <div class="flex flex-col justify-center items-center gap-2">
+          <div class="flex gap-3 items-center">
+            <img class="w-[64px] h-[30px]" src="./assets/image 6.png" alt="" />
+            <h3 class="">
+              Contact <span class="text-orange">Us</span>
+            </h3>
+          </div>
+          <h1
+            class="text-[36px] md:text-[46px]  lg:text-[56px] font-semibold text-center leading-tight "
+          >
+            Let’s Scale Your
+<span class="text-orange">Business!</span>
+          </h1>
+            <p class="text-[16px] md:text-[18px]  font-light text-center">FINTRIXX – Your Amazon Growth Partner
+          </p>
+        </div>
+
+        <!-- calendar div  -->
+        <div class="relative shadow border border-gray-200   rounded-lg   overflow-hidden flex flex-col lg:flex-row md:w-full lg:w-[70%] mx-auto">
+
+          <!-- badge -->
+          <span class="shadow  absolute -right-10 top-5 rotate-45 px-12 text-center  bg-gray-800"> <p class="text-xs text-white">POWERED BY</p> <p class="text-white text-sm">Calendly</p> </span>
+          <!-- left  -->
+          <div class="space-y-8 flex-1 p-6">
+
+            <div class="">
+              <h4 class="text-gray-600 text-xl">Naim</h4>
+            <h2 class="text-2xl md:text-3xl lg:text-4xl">Book Your Strategy <br>Session: Accelerate Your <br>Growth</h2>
+            </div>
+
+           <div class="space-y-2">
+             <div class="text-sm md:text-[16px] text-gray-600 flex items-center gap-2"><i class="fa-regular fa-clock"></i>30 min</div>
+            <div class="text-sm md:text-[16px] text-gray-600 flex items-center gap-2"><i class="fa-solid fa-video"></i>Web conferencing details provided upon confirmation</div>
+          </div>
+
+          <div class="text-blue-600  lg:h-40 flex items-end"><h4>Cookie Setting</h4></div>
+
+           </div>
+
+
+          <!-- right -->
+          <div class="flex-1 border-l border-gray-200 p-6 space-y-4">
+            <h3 class="text-xl">Select a Date & Time</h3>
+
+            <!-- calendar -->
+           <div class="space-y-4">
+
+            <!-- date time -->
+             <div class="flex items-center justify-center gap-10">
+             <span class="cursor-pointer rounded-full p-3 hover:bg-blue-100"> <i class="fa-solid fa-angle-left"></i></span>
+              <p>March 2026</p>
+               <span class="cursor-pointer rounded-full p-3 bg-blue-100"><i class="fa-solid fa-angle-right "></i></span>
+            </div>
+
+            <!-- day -->
+            <div class="grid grid-cols-7 gap-4 text-xs">
+              <span class="font-light text-gray-400">MON</span>
+              <span class="font-light text-gray-400">TUE</span>
+              <span class="font-light text-gray-400">WED</span>
+              <span class="font-light text-gray-400">THU</span>
+              <span class="font-light text-gray-400">FRI</span>
+              <span class="font-light text-gray-400">SAT</span>
+              <span class="font-light text-gray-400">SUN</span>
+            </div>
+
+               <!-- date -->
+            <div class="grid grid-cols-7 gap-4">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>4</span>
+              <span>5</span>
+              <span class=" text-blue-500">6</span>
+              <span class=" text-blue-500">7</span>
+              <span class=" text-blue-500">8</span>
+              <span class=" text-blue-500">9</span>
+              <span class=" text-blue-500">10</span>
+              <span class=" text-blue-500">11</span>
+              <span class=" text-blue-500">12</span>
+              <span class=" text-blue-500">13</span>
+              <span class=" text-blue-500">14</span>
+              <span class=" text-blue-500">15</span>
+              <span class=" text-blue-500">16</span>
+              <span class=" text-blue-500">17</span>
+              <span class=" text-blue-500">18</span>
+              <span class=" text-blue-500">19</span>
+              <span class=" text-blue-500">20</span>
+              <span class=" text-blue-500">21</span>
+              <span class=" text-blue-500">22</span>
+              <span class=" text-blue-500">23</span>
+              <span class=" text-blue-500">24</span>
+              <span class=" text-blue-500">25</span>
+              <span class=" text-blue-500">26</span>
+              <span class=" text-blue-500">27</span>
+              <span class=" text-blue-500">28</span>
+              <span>29</span>
+              <span>30</span>
+              <span>31</span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div >
+              <h3>Time Zone</h3>
+              <div class="flex items-center gap-2"><i class="fa-solid fa-earth-asia"></i>Asia/Dhaka(3:00pm)<i class="fa-solid fa-angle-down"></i></div>
+            </div>
+           </div>
+
+          </div>
+
+
+
+
+        </div>
+
+    </section>
+
+
+<!-- footer section -->
+    <footer class="bg-dark pt-20  md:pt-28 pb-6 md:pb-10 px-5 lg:px-0">
+        <main class="container mx-auto flex-col flex md:flex-row justify-between pb-10 gap-10 md:gap-0">
+            <div class="space-y-4">
+                <img src="./assets/Logo.png" alt="">
+                <p class="text-[14px] lg:text-[16px] text-white font-light">
+                    FINTRIXX – Your Amazon Growth Partner Since 2016, we boost Amazon <br> success with expert SEO, PPC, and growth strategies.
+                </p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between gap-10 lg:gap-40">
+                <div class="one space-y-3 md:space-y-6">
+                    <h3 class="text-lg lg:text-xl font-semibold text-white">Home</h1>
+                        <ul class="space-y-2 md:space-y-4 text-[14px] lg:text-[16px]">
+                            <li class="text-gray-200 font-light"><a href="#">Home</a></li>
+                            <li class="text-gray-200 font-light"><a href="#">About</a></li>
+                            <li class="text-gray-200 font-light"><a href="#">Services</a></li>
+                            <li class="text-gray-200 font-light"><a href="#">Why Choose Us</a></li>
+                            <li class="text-gray-200 font-light"><a href="#">Contact</a></li>
+                        </ul>
+                </div>
+                <div class="two space-y-3  md:space-y-6 ">
+                    <h3 class="text-lg lg:text-xl font-semibold text-gray-200">Contact</h1>
+                        <div class="flex gap-2 text-white font-light">
+                            <img src="./assets/mail.png" alt="">
+                            <a class="text-[14px] lg:text-[16px]" href="#">leadsbridgedemo@example.com</a>
+                        </div>
+                </div>
+             
+            </div>
+        </main>
+
+        <div class="container mx-auto pt-10 border-t border-gray-700 flex flex-col md:flex-row justify-between  text-gray-200 font-light gap-4">
+            <p class="text-[14px] lg:text-[16px]">© 2025 Copyright Amazon</p>
+            <div class="space-x-4">
+               <a class="text-[14px] lg:text-[16px]" href="#">Privacy Policy</a>
+               <a class="text-[14px] lg:text-[16px]" href="#">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+<script src="./script.js"></script>
+  </body>
+</html>
